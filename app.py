@@ -31,4 +31,15 @@ pred = model.predict(X[-30:])
 
 # Show Predictions
 st.subheader("Predicted vs Actual")
-st.line_chart(pd.DataFrame({"Actual": y[-30:], "Predicted": pred}, index=y[-30:].index))
+
+# Ensure predictions are 1D
+pred = pred.flatten() if pred.ndim > 1 else pred  
+
+# Now create DataFrame for chart
+results_df = pd.DataFrame({
+    "Actual": y[-30:].values, 
+    "Predicted": pred
+}, index=y[-30:].index)
+
+st.subheader("Predicted vs Actual")
+st.line_chart(results_df)
