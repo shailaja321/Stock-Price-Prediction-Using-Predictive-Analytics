@@ -60,10 +60,10 @@ streamlit run app.py
 
 ## 🎯 Use Cases
 
-✔ Students – Learn ML + deployment workflow
-✔ Data Science Enthusiasts – Experiment with stock data & modeling
-✔ Portfolio Project – Showcase predictive analytics + web app skills
-✔ Quick Demos – Share live ML apps without heavy infrastructure
+# ✔ Students – Learn ML + deployment workflow
+# ✔ Data Science Enthusiasts – Experiment with stock data & modeling
+# ✔ Portfolio Project – Showcase predictive analytics + web app skills
+# ✔ Quick Demos – Share live ML apps without heavy infrastructure
 
 
 ## 📜 License
