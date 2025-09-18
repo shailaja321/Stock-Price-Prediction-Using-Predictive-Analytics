@@ -32,14 +32,15 @@ model = RandomForestRegressor()
 model.fit(X[:-30], y[:-30])
 pred = model.predict(X[-30:])
 
-# Fix: Flatten pred to avoid "must be 1D" error
-pred = pred.flatten() if pred.ndim > 1 else pred  
+# Ensure both Actual and Predicted are 1D arrays
+actual = y[-30:].values.flatten()
+pred = pred.flatten()
 
 # Create Results DataFrame
 results_df = pd.DataFrame({
-    "Actual": y[-30:].values,
-    "Predicted": pred
-}, index=y[-30:].index)
+    "Actual": actual,
+    "Predicted": pred},
+    index=y[-30:].index)
 
 # Show Predictions
 st.subheader("Predicted vs Actual (Last 30 Days)")
