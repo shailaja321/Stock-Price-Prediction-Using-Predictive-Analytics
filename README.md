@@ -1,14 +1,14 @@
-## 📈 Stock Price Prediction using Predictive Analytics
+# 📈 Stock Price Prediction using Predictive Analytics
 
 This project predicts stock prices using Machine Learning (Linear Regression) and presents results with interactive visualizations.
 It was built entirely with GitHub + Streamlit Cloud, making it lightweight, shareable, and easy to run.
 
 
-## 🚀 Live Demo  
+# 🚀 Live Demo  
 [Click here to try the app](https://stock-price-prediction-using-predictive-analytics-uamiyxedrwig.streamlit.app/)
 
 
-## 📖 About the Project
+# 📖 About the Project
 
 Stock market movements are complex, but historical data can reveal useful trends.
 This project demonstrates how predictive analytics and machine learning can be applied to financial data for:
@@ -20,7 +20,7 @@ This project demonstrates how predictive analytics and machine learning can be a
 + It’s designed as a learning + showcase project for both Data Science and Web Deployment skills.
 
 
-## 📌 Features
+# 📌 Features
 
 * Fetches live stock data using Yahoo Finance API
 * Trains a Linear Regression model on historical prices
@@ -28,7 +28,7 @@ This project demonstrates how predictive analytics and machine learning can be a
 * Visualizes Actual vs Predicted values with plots
 * Fully deployed on Streamlit Cloud
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Python
 + Pandas, NumPy – Data processing
@@ -38,7 +38,7 @@ Python
 + Streamlit – Interactive web app + deployment
 + GitHub – Version control & project hosting
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 📦 stock-price-prediction-using-predictive-analytics
  ┣ 📜 app.py             # Main Streamlit app
@@ -46,19 +46,19 @@ Python
  ┗ 📜 README.md          # Documentation
 
 
-## ✅ How to Run Locally
+# ✅ How to Run Locally
 
-# Clone repository
+#### Clone repository
 git clone https://github.com/your-username/stock-price-prediction-using-predictive-analytics.git
 cd stock-price-prediction-using-predictive-analytics
 
-# Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
 
-# Run app
+#### Run app
 streamlit run app.py
 
-## 🎯 Use Cases
+# 🎯 Use Cases
 
 ### ✔ Students – Learn ML + deployment workflow
 ### ✔ Data Science Enthusiasts – Experiment with stock data & modeling
